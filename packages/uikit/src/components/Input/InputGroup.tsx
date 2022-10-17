@@ -54,7 +54,9 @@ const InputGroup = ({ scale = scales.MD, startIcon, endIcon, children, ...props 
     {...props}
   >
     {startIcon && <InputIcon scale={scale}>{startIcon}</InputIcon>}
-    {cloneElement(children, { scale })}
+    
+    {//@ts-ignore
+    cloneElement(children, { scale })}
     {endIcon && (
       <InputIcon scale={scale} isEndIcon>
         {endIcon}
