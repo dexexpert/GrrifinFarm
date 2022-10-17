@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useEffect, useState } from 'react'
 
 export const useSessionStorage = <T>(keyName: string, defaultValue: T) => {
