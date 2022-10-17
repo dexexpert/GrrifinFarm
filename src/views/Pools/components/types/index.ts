@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Dispatch, SetStateAction } from 'react'
 import { Token } from '@pancakeswap/sdk'
 import BigNumber from 'bignumber.js'
