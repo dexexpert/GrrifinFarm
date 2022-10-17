@@ -33,6 +33,7 @@ const Button = <E extends ElementType = "button">(props: ButtonProps<E>): JSX.El
         {children}
         {isValidElement(endIcon) &&
           cloneElement(endIcon, {
+            // @ts-ignore
             ml: "0.5rem",
           })}
       </>
