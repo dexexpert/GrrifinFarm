@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { atomWithStorage, useReducerAtom } from 'jotai/utils'
 import localForage from 'localforage'
 import defaultStorage from 'redux-persist/lib/storage'
