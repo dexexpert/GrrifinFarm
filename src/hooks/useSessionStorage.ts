@@ -13,8 +13,7 @@ export const useSessionStorage = <T>(keyName: string, defaultValue: T) => {
         window.sessionStorage.setItem(keyName, JSON.stringify(defaultValue))
       }
       return defaultValue
-    }
-    } catch (err) {
+    }catch (err) {
       return defaultValue
     }
   })
