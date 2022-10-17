@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { AnimatePresence, domMax, LazyMotion, m } from "framer-motion";
 import React, { createContext, useRef, useState } from "react";
 import styled from "styled-components";

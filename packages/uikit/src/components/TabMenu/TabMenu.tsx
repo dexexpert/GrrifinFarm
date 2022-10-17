@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { cloneElement, Children, ReactElement } from "react";
 import styled from "styled-components";
 import Flex from "../Box/Flex";

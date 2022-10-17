@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { cloneElement } from "react";
 import styled from "styled-components";
 import Box from "../Box/Box";
