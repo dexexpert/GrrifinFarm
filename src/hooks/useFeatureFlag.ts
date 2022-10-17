@@ -7,7 +7,7 @@ export const featureFarmApiAtom = atomWithStorage<typeof FLAG_FARM>(
   'feature-farm-api',
   FLAG_FARM,
   // @ts-ignore
-  storage,
+  {...storage, delayInit : true},
 )
 
 featureFarmApiAtom.onMount = (set) => {

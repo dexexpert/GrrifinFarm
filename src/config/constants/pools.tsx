@@ -98,7 +98,7 @@ export const livePools: SerializedPoolConfig[] = [
     earningToken: bscTestnetTokens.gland,
     contractAddress: {
       56: '',
-      97: '0x43ef371541072914C9D222f6633C829947e88155',
+      97: '0x7dEC0F77bA114307728f1A76B11Dbc58B0ae0735',
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '1.1',
@@ -111,7 +111,7 @@ export const livePools: SerializedPoolConfig[] = [
     earningToken: bscTestnetTokens.gland,
     contractAddress: {
       56: '',
-      97: '0x0D05a6Fc7157E711eA5F5C8751e92d1b13FEc468',
+      97: '0x92AAE95c4B288e3D22E9B94DbBbC0A59f7E5B583',
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '1.2',
@@ -137,7 +137,7 @@ export const livePools: SerializedPoolConfig[] = [
     earningToken: bscTestnetTokens.gart,
     contractAddress: {
       56: '',
-      97: '0x52B56db7D1D0Ea82553bb337129125C4903206f1',
+      97: '0x75F37F74117dabBCE2A3aA357BFB72EBdc87626D',
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '1.1',
@@ -150,7 +150,7 @@ export const livePools: SerializedPoolConfig[] = [
     earningToken: bscTestnetTokens.gart,
     contractAddress: {
       56: '',
-      97: '0x9F14F3FA2D2Bd449c7195e27a14D5550775F0689',
+      97: '0x10710e8B30A63F4401887Cb92c189f79137d096d',
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '1.5',
