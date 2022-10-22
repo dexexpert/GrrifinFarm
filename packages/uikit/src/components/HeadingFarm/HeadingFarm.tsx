@@ -21,19 +21,18 @@ const style = {
   },
 };
 
-const Heading = styled(Text).attrs({ bold: true })<HeadingProps>`
+const HeadingFarm = styled(Text).attrs({ bold: true })<HeadingProps>`
   font-size: ${({ scale }) => style[scale || scales.MD].fontSize};
   font-weight: 600;
   line-height: 1.1;
 
-  color: white;
   ${({ theme }) => theme.mediaQueries.lg} {
     font-size: ${({ scale }) => style[scale || scales.MD].fontSizeLg};
   }
 `;
 
-Heading.defaultProps = {
+HeadingFarm.defaultProps = {
   as: tags.H2,
 };
 
-export default Heading;
+export default HeadingFarm;
